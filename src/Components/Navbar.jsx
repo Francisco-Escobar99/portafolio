@@ -38,7 +38,7 @@ const Nav = () => {
   window.addEventListener("scroll", scrollHandler);
 
   return (
-    <nav className={navbarblur ? "Navbar blur" : "Navbar"}>
+    <nav className={navbarblur ? "Navbar blur" : "Navbar"} translate="no">
       <h1
         title="Reload"
         onClick={() => window.location.reload(true)}

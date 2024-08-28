@@ -8,7 +8,7 @@ import { BsPerson } from "react-icons/bs";
 const Home = () => {
   return (
     <div>
-      <div className="HomePage">
+      <div className="HomePage" translate="no">
         <div className="HomeText">
           <h1>Hola!</h1>
           <h1>

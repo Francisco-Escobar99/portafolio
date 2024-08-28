@@ -20,13 +20,13 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     PeliculasWebsite: "https://francisco-escobar99.github.io/MejoresPeliculasD/",
 
     ServiciosDesc:
-      "Este sitio web, ofrece los servicios de una empresa, mostrando una galeria de imagenes a lo que se dedican y en que son expertos.",
+      "Este sitio web ofrece los servicios de una empresa, mostrando una galeria de imagenes de lo que se dedican y la experiencia que tienen.",
     ServiciosGithub: "https://github.com/Francisco-Escobar99/ProyectoCybac",
     ServiciosWebsite: "https://empresa-info.netlify.app/",
   };
 
   return (
-    <div className="projectBox">
+    <div className="projectBox" translate="no">
       <img className="projectPhoto" src={projectPhoto} alt="Project display" />
       <div>
         <br />

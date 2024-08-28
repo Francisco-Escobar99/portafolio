@@ -4,12 +4,12 @@ import { FaFileDownload } from "react-icons/fa";
 const About = () => {
   return (
     <>
-      <div className="AboutPage">
+      <div className="AboutPage" translate="no">
         <div className="AboutText">
-          <h1 className="AboutTextHeading">
+          <h1 className="AboutTextHeading" translate="no">
             Quien <b>soy</b> yo!
           </h1>
-          <p>
+          <p translate="no">
             Hola, mi nombres es <b>Francisco Escobar</b> y soy de Tuxtla Gutierrez,
             Chiapas. Soy <b>desarrollador Frontend,</b> termine mis estudios en la Universidad Politecnica <b> como ingeniero en Software</b>. <br />
             <br />

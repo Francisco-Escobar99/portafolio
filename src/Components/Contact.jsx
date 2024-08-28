@@ -37,7 +37,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div className="contact-container" translate="no">
       <h2>Contactame</h2>
       {submitted ? (
         <p className="submitted-message">¡Se envió exitosamente!</p>

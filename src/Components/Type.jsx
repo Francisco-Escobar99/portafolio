@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 const Type = () => {
   return (
-    <div className="TypeEffect">
+    <div className="TypeEffect" translate="no">
       <Typewriter
         options={{
           strings: ["Desarrollador frontend", "Desarrollo web", "Desarrollo Movil"],
