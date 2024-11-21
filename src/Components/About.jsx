@@ -10,11 +10,11 @@ const About = () => {
             Quien <b>soy</b> yo!
           </h1>
           <p translate="no">
-            Hola, mi nombres es <b>Francisco Escobar</b> y soy de Tuxtla Gutierrez,
+            Hola, mi nombre es <b>Francisco Escobar</b> y soy de Tuxtla Gutierrez,
             Chiapas. Soy <b>desarrollador Frontend,</b> termine mis estudios en la Universidad Politecnica <b> como ingeniero en Software</b>. <br />
             <br />
             Me considero una persona trabajadora y dispuesto por seguir aprendiendo en el desarrollo 
-            web. En la seccion de proyectos puedes ver algunos de mis trabajos. 
+            web. En la seccion de proyectos puedes ver algunos de mis trabajos personales. 
             <br />
             <br />Estoy <b>abierto </b> a nuevos trabajos donde pueda contribuir y crecer. No dudes en
              contactarte conmigo, los enlaces estan en el pie de página.
@@ -46,6 +46,7 @@ const About = () => {
         <Skills skill="Overleaf" />
         <Skills skill="NodeJs" />
         <Skills skill="MySqlWorkbench" />
+        <Skills skill="Vue"/>
       </div>
     </>
   );

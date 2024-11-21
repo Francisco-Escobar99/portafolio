@@ -10,11 +10,13 @@ import {
   FaCss3,
   FaPhp,                  
   FaNodeJs,
+  FaVuejs
 } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
-import {SiLaravel,  SiMysql} from 'react-icons/si';
+import {SiLaravel,  SiMysql,  } from 'react-icons/si';
 import { SiOverleaf} from "react-icons/si";
 import { SiFlutter } from "react-icons/si";
+
 
 const Skills = ({ skill }) => {
   const icon = {
@@ -32,6 +34,8 @@ const Skills = ({ skill }) => {
     MySqlWorkbench: <SiMysql />, 
     Overleaf: <SiOverleaf />,
     NodeJs: <FaNodeJs />, 
+    Vue: <FaVuejs />,
+
   };
 
   return (
