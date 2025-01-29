@@ -4,10 +4,10 @@ import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
-    ActividadesDesc:
-      "Este sitio web es un crud de tareas, los usuarios podran agregar, eliminar o modificar alguna actividad que desea",
-    ActividadesGithub: "https://github.com/Francisco-Escobar99/CrudTareas",
-    ActividadesWebsite: "https://obscure-mesa-25813-bbd5e7961b44.herokuapp.com/tasks",
+    AgendaDesc:
+      "Este sitio web representa una agenda de contactos, donde los usuarios podran guardar informacion telefónica.",
+    AgendaGithub: "https://github.com/Francisco-Escobar99/agenda",
+    AgendaWebsite: "https://agenda-contact.netlify.app/",
 
     HotelDesc:
       "En este sitio web, encontraras una (landing Page) de un hotel donde ofrece sus servicios a clientes y los paquetes que ofrece.",
@@ -15,7 +15,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     HotelWebsite: "https://hotelpalacio.netlify.app/",
 
     PeliculasDesc:
-      "Esta pagina web te muestra un catalogo de las mejores series cinematograficas de la decada de los 2010, y una descripcion de cada una de ellas.",
+      "Esta pagina web te muestra un catalogo de las mejores series cinematograficas de la decada de los 2010, y una descripción de cada una de ellas.",
     PeliculasGithub: "https://github.com/Francisco-Escobar99/MejoresPeliculasD",
     PeliculasWebsite: "https://francisco-escobar99.github.io/MejoresPeliculasD/",
 
@@ -23,6 +23,11 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "Este sitio web ofrece los servicios de una empresa, mostrando una galeria de imagenes de lo que se dedican y la experiencia que tienen.",
     ServiciosGithub: "https://github.com/Francisco-Escobar99/ProyectoCybac",
     ServiciosWebsite: "https://empresa-info.netlify.app/",
+
+    GaleriaDesc:
+    "Pagina web que realiza la busqueda de imagenes que deseas y puedas descargarla, utilizando la Api unsplash",
+    GaleriaGithub: "https://github.com/Francisco-Escobar99/galeria",
+    GaleriaWebsite: "https://galeria-imagenes00.netlify.app/",
   };
 
   return (

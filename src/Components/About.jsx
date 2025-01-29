@@ -1,5 +1,6 @@
 import React from "react";
 import Skills from "./Skills.jsx";
+import PortadaAvatar from "../images/PortadaAvatar.png"
 import { FaFileDownload } from "react-icons/fa";
 const About = () => {
   return (
@@ -10,13 +11,13 @@ const About = () => {
             Quien <b>soy</b> yo!
           </h1>
           <p translate="no">
-            Hola, mi nombre es <b>Francisco Escobar</b> y soy de Tuxtla Gutierrez,
-            Chiapas. Soy <b>desarrollador Frontend,</b> termine mis estudios en la Universidad Politecnica <b> como ingeniero en Software</b>. <br />
+            Hola, mi nombre es <b>Francisco Escobar</b> y soy de de la ciudad de Tuxtla Gutiérrez,
+            Chiapas. Soy <b>desarrollador Frontend,</b> actualmente soy egresado en la Universidad Politécnica <b> como ingeniero en desarrollo de Software</b>. <br />
             <br />
-            Me considero una persona trabajadora y dispuesto por seguir aprendiendo en el desarrollo 
-            web. En la seccion de proyectos puedes ver algunos de mis trabajos personales. 
+            Me considero una persona trabajadora, puntual y dispuesto por seguir aprendiendo en el desarrollo 
+            web, creo un clima laboral saludable y entusiasta. En la sección de proyectos puedes ver algunos de mis trabajos personales. 
             <br />
-            <br />Estoy <b>abierto </b> a nuevos trabajos donde pueda contribuir y crecer. No dudes en
+            <br />Estoy <b>abierto </b> a nuevas oportuidades laborales donde pueda contribuir y crecer. No dudes en
              contactarte conmigo, los enlaces estan en el pie de página.
             <br />
           </p>
@@ -25,6 +26,9 @@ const About = () => {
               Descargar CV <FaFileDownload></FaFileDownload>
             </button>
           </a>
+        </div>
+        <div>
+          <img className="PortadaAvatar" src={PortadaAvatar} alt="" />
         </div>
 
         <div></div>

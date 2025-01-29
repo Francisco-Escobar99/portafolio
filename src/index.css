@@ -229,8 +229,8 @@ button:hover {
   letter-spacing: 0.6px;
 }
 .Avatar {
-  height: 450px;
-  width: 500px;
+  height: 355px;
+  width: 600px;
   mix-blend-mode: screen;
 }
 
@@ -293,6 +293,12 @@ button:hover {
   font-weight: bold;
 }
 
+.PortadaAvatar{
+  height: 400px;
+  width: 440px;
+
+}
+
 @media (max-width: 900px) {
   .AboutPage {
     display: block;
@@ -314,6 +320,11 @@ button:hover {
   .Avatar {
     width: 200px;
     margin-bottom: 75px;
+  }
+
+  .PortadaAvatar{
+      width: 300px;
+      margin-bottom: 70px;
   }
 }
 
