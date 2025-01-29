@@ -6,7 +6,7 @@ const Type = () => {
     <div className="TypeEffect" translate="no">
       <Typewriter
         options={{
-          strings: ["Ingeniero en desarrollo de software", "Desarrollador frontend", "Apasionado por la tecnología"],
+          strings: ["Ingeniero en software", "Desarrollador frontend", "Egresado"],
           autoStart: true,
           loop: true,
           delay: 70,
