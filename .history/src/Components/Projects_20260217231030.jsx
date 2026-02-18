@@ -15,8 +15,8 @@ const Projects = () => {
       <div className="project">
         <ProjectBox projectPhoto={AgendaImage} projectName="Agenda de Contactos" />
         <ProjectBox projectPhoto={HotelImage} projectName="Landing Page Hotel" />
-        <ProjectBox projectPhoto={PeliculasImage} projectName="Catalogo de Peliculas" />
-        <ProjectBox projectPhoto={ServicioImage} projectName="Landing Page Empresa" />
+        <ProjectBox projectPhoto={PeliculasImage} projectName="Peliculas" />
+        <ProjectBox projectPhoto={ServicioImage} projectName="SLaervicios" />
         <ProjectBox projectPhoto={GaleriaImage} projectName="Galeria"/>
       </div>
     </div>

@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="project">
         <ProjectBox projectPhoto={AgendaImage} projectName="Agenda de Contactos" />
         <ProjectBox projectPhoto={HotelImage} projectName="Landing Page Hotel" />
-        <ProjectBox projectPhoto={PeliculasImage} projectName="Catalogo de Peliculas" />
+        <ProjectBox projectPhoto={PeliculasImage} projectName="CataPeliculas" />
         <ProjectBox projectPhoto={ServicioImage} projectName="Landing Page Empresa" />
         <ProjectBox projectPhoto={GaleriaImage} projectName="Galeria"/>
       </div>

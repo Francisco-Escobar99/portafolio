@@ -12,12 +12,12 @@ const About = () => {
           </h1>
           <p translate="no">
             Hola, mi nombre es <b>Francisco Escobar</b> y soy Originario de la ciudad de Tuxtla Gutiérrez,
-            Chiapas. Soy <b>Ingeniero en software,</b> egresado de la Universidad Politécnica de Chiapas en 2024.<b>Actualmente Radico en la ciudad de Guadalajara Jalisco.</b>. <br />
+            Chiapas. Soy <b>Ingeniero en  desarsoftware,</b> egresado de la Universidad Politécnica de Chiapas <b> como ingeniero en desarrollo de Software</b>. <br />
             <br />
             Me considero una persona trabajadora, puntual y dispuesto por seguir aprendiendo en el desarrollo 
-            de la programación, creo un clima laboral saludable y entusiasta. En la sección de proyectos puedes ver algunos de mis trabajos personales. 
+            web, creo un clima laboral saludable y entusiasta. En la sección de proyectos puedes ver algunos de mis trabajos personales. 
             <br />
-            <br />Estoy <b>abierto </b> a nuevas oportunidades laborales donde pueda contribuir y crecer. No dudes en
+            <br />Estoy <b>abierto </b> a nuevas oportuidades laborales donde pueda contribuir y crecer. No dudes en
              contactarte conmigo, los enlaces estan en el pie de página.
             <br />
           </p>
