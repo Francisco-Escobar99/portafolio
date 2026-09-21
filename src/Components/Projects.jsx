@@ -12,6 +12,7 @@ const Projects = () => {
       <h1 className="projectHeading">
         Mis <b>Proyectos</b>
       </h1>
+      <div className="section-divider"></div>
       <div className="project">
         <ProjectBox projectPhoto={AgendaImage} projectName="Agenda de Contactos" />
         <ProjectBox projectPhoto={HotelImage} projectName="Landing Page Hotel" />

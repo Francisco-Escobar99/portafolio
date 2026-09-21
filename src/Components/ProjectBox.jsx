@@ -3,56 +3,71 @@ import { FaGithub } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
+  // Mapa de nombre completo → clave corta para el objeto desc
+  const keyMap = {
+    "Agenda de Contactos":  "Agenda",
+    "Landing Page Hotel":   "Hotel",
+    "Catalogo de Peliculas":"Peliculas",
+    "Landing Page Empresa": "Servicios",
+    "Galeria":              "Galeria",
+  };
+
   const desc = {
     AgendaDesc:
-      "Este sitio web representa una agenda de contactos, donde los usuarios podran guardar informacion telefónica.",
-    AgendaGithub: "https://github.com/Francisco-Escobar99/agenda",
-    AgendaWebsite: "https://agenda-contact.netlify.app/",
+      "Agenda de contactos donde los usuarios pueden guardar información telefónica de forma organizada.",
+    AgendaGithub:    "https://github.com/Francisco-Escobar99/agenda",
+    AgendaWebsite:   "https://agenda-contact.netlify.app/",
 
     HotelDesc:
-      "En este sitio web, encontraras una (landing Page) de un hotel donde ofrece sus servicios a clientes y los paquetes que ofrece.",
-    HotelGithub: "https://github.com/Francisco-Escobar99/LandingPageHotel",
-    HotelWebsite: "https://hotelpalacio.netlify.app/",
+      "Landing Page de un hotel que muestra sus servicios y paquetes disponibles para clientes.",
+    HotelGithub:     "https://github.com/Francisco-Escobar99/LandingPageHotel",
+    HotelWebsite:    "https://hotelpalacio.netlify.app/",
 
     PeliculasDesc:
-      "Esta pagina web te muestra un catalogo de las mejores series cinematograficas de la decada de los 2010, y una descripción de cada una de ellas.",
-    PeliculasGithub: "https://github.com/Francisco-Escobar99/MejoresPeliculasD",
+      "Catálogo de las mejores series cinematográficas de la década de los 2010 con descripción de cada una.",
+    PeliculasGithub:  "https://github.com/Francisco-Escobar99/MejoresPeliculasD",
     PeliculasWebsite: "https://francisco-escobar99.github.io/MejoresPeliculasD/",
 
     ServiciosDesc:
-      "Este sitio web ofrece los servicios de una empresa, mostrando una galeria de imagenes de lo que se dedican y la experiencia que tienen.",
-    ServiciosGithub: "https://github.com/Francisco-Escobar99/ProyectoCybac",
+      "Sitio web corporativo con galería de imágenes y los servicios ofrecidos por la empresa.",
+    ServiciosGithub:  "https://github.com/Francisco-Escobar99/ProyectoCybac",
     ServiciosWebsite: "https://empresa-info.netlify.app/",
 
     GaleriaDesc:
-    "Pagina web que realiza la busqueda de imagenes que deseas y puedas descargarla, utilizando la Api unsplash",
-    GaleriaGithub: "https://github.com/Francisco-Escobar99/galeria",
-    GaleriaWebsite: "https://galeria-imagenes00.netlify.app/",
+      "Buscador de imágenes con descarga directa, usando la API de Unsplash.",
+    GaleriaGithub:   "https://github.com/Francisco-Escobar99/galeria",
+    GaleriaWebsite:  "https://galeria-imagenes00.netlify.app/",
   };
+
+  const key = keyMap[projectName] || projectName;
 
   return (
     <div className="projectBox" translate="no">
-      <img className="projectPhoto" src={projectPhoto} alt="Project display" />
-      <div>
-        <br />
+      <div className="projectPhotoWrapper">
+        <img
+          className="projectPhoto"
+          src={projectPhoto}
+          alt={`Vista previa de ${projectName}`}
+        />
+      </div>
+      <div className="projectContent">
         <h3>{projectName}</h3>
-        <br />
-        {desc[projectName + "Desc"]}
-        <br />
-
-        <a href={desc[projectName + "Github"]} target="_blank">
-          <button className="projectbtn">
-            <FaGithub /> Github
-          </button>
-        </a>
-
-        <a href={desc[projectName + "Website"]} target="_blank">
-          <button className="projectbtn">
-            <CgFileDocument /> Sitio
-          </button>
-        </a>
+        <p className="projectDesc">{desc[key + "Desc"]}</p>
+        <div className="projectButtons">
+          <a href={desc[key + "Github"]} target="_blank" rel="noreferrer">
+            <button className="projectbtn">
+              <FaGithub /> GitHub
+            </button>
+          </a>
+          <a href={desc[key + "Website"]} target="_blank" rel="noreferrer">
+            <button className="projectbtn">
+              <CgFileDocument /> Sitio
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
 };
+
 export default ProjectBox;

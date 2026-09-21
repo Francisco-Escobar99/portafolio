@@ -41,6 +41,7 @@ const Skills = ({ skill }) => {
   return (
     <div title={skill} className="SkillBox">
       {icon[skill]}
+      <span className="skill-label">{skill === "MySqlWorkbench" ? "MySQL" : skill}</span>
     </div>
   );
 };

@@ -35,6 +35,7 @@ const About = () => {
       </div>
 
       <h1 className="SkillsHeading"> Habilidades</h1>
+      <div className="section-divider"></div>
       <div className="skills">
         <Skills skill="HTML" />
         <Skills skill="CSS" />

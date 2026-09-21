@@ -10,7 +10,7 @@ import Contact from "./Components/Contact";
 import MoveToTop from "./Components/MoveToTop";
 import CircleLoader from "react-spinners/CircleLoader";
 import "./App.css";
-2
+
 function App() {
   const [loading, setLoading] = useState(true);
   const location = useLocation();
@@ -28,9 +28,9 @@ function App() {
       {loading ? (
         <div className="loader">
           <CircleLoader
-            color={"#011c38"}
+            color={"#00d4ff"}
             loading={true}
-            size={100}
+            size={80}
             aria-label="Loading Spinner"
             data-testid="loader"
           />
