@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Project from "./Components/Projects";
 import Contact from "./Components/Contact";
 import MoveToTop from "./Components/MoveToTop";
+import Experience from "./Components/Experience";
 import CircleLoader from "react-spinners/CircleLoader";
 import "./App.css";
 
@@ -46,6 +47,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/About" element={<About />} />
                 <Route path="/Project" element={<Project />} />
+                <Route path="/Experience" element={<Experience />} />
                 <Route path="/Contact" element={<Contact />} />
               </Routes>
             </CSSTransition>
