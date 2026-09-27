@@ -1,5 +1,6 @@
 import React from "react";
 import { BsBriefcase } from "react-icons/bs";
+import { FaDatabase, FaLaptopCode, FaMobileAlt, FaTicketAlt, FaBriefcase, FaTools, FaCode, FaStar } from "react-icons/fa";
 
 const Experience = () => {
   return (
@@ -11,7 +12,9 @@ const Experience = () => {
       <div className="experience-container">
         
         <div className="experience-item">
-          <h3>Estancia I, agosto 2021</h3>
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <FaDatabase size={24} color="var(--accent-cyan)" /> Estancia I, agosto 2021
+          </h3>
           <h4>CYBAC TI S.A. DE C.V. TECHNOLOGY FOR BUSINESS, TUXTLA GUTIERREZ, CHIAPAS.</h4>
           <ul>
             <li>Realizar diagrama entidad-relación y caso de uso. Creación de base datos para una pagina web de tarjetas de presentación.</li>
@@ -20,7 +23,9 @@ const Experience = () => {
         </div>
 
         <div className="experience-item">
-          <h3>Estancia II, Diciembre 2021</h3>
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <FaLaptopCode size={26} color="var(--accent-cyan)" /> Estancia II, Diciembre 2021
+          </h3>
           <h4>CYBAC TI S.A. DE C.V. TECHNOLOGY FOR BUSINESS</h4>
           <ul>
             <li>Desarrollo frontend. Crear una pagina web informativa de servicios que ofrece la empresa.</li>
@@ -29,7 +34,9 @@ const Experience = () => {
         </div>
 
         <div className="experience-item">
-          <h3>Estadía, Agosto-Diciembre 2023</h3>
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <FaMobileAlt size={24} color="var(--accent-cyan)" /> Estadía, Agosto-Diciembre 2023
+          </h3>
           <h4>PICE SOFTWARE SA DE CV, GUADALAJARA, JALISCO.</h4>
           <ul>
             <li>Desarrollo de pruebas de software (aplicando pruebas de caja negra y pruebas de regresión) para sistema web financiero.</li>
@@ -40,7 +47,9 @@ const Experience = () => {
         </div>
 
         <div className="experience-item">
-          <h3>Desarrollo de Ticket de patinaje, Diciembre 2023 - Enero 2024</h3>
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <FaTicketAlt size={24} color="var(--accent-cyan)" /> Desarrollo de Ticket de patinaje, Diciembre 2023 - Enero 2024
+          </h3>
           <h4>PICE SOFTWARE SA DE CV, GUADALAJARA, JALISCO.</h4>
           <ul>
             <li>Mantenimiento del proyecto, Aplicación móvil para generar ticket de impresión para una pista de patinaje de hielo.</li>
@@ -49,7 +58,9 @@ const Experience = () => {
         </div>
 
         <div className="experience-item">
-          <h3>Imacop Tour Corporation, Marzo 2025 - Presente</h3>
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <FaBriefcase size={24} color="var(--accent-cyan)" /> Imacop Tour Corporation, Marzo 2025 - Presente
+          </h3>
           <h4>JORNADA COMPLETA</h4>
           <ul>
             <li>Jornada completa, desarrollo web, Diseño y desarrollo de módulos, mantenimiento del sistema interno de la empresa,.</li>
@@ -65,10 +76,25 @@ const Experience = () => {
 
       <div className="experience-container" style={{ marginBottom: '80px' }}>
         <div className="experience-item">
-          <ul>
-            <li><b>Tecnologias:</b> bootstrap, laravel, Nodejs, Angular, navicat, myslq, sqlServer, Filezilla, Navicat.</li>
-            <li><b>Lenguajes:</b> HTML, CSS, javaScript, php, sql.</li>
-            <li><b>Intereses:</b> Una persona responsable, puntual, organizado, trabajo en equipo.</li>
+          <ul style={{ listStyle: 'none', paddingLeft: 0, margin: 0 }}>
+            <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', marginBottom: '14px' }}>
+              <FaTools size={20} color="var(--accent-cyan)" style={{ marginTop: '2px' }} />
+              <div>
+                <b>Tecnologías:</b> bootstrap, laravel, Nodejs, Angular, navicat, myslq, sqlServer, Filezilla, Navicat.
+              </div>
+            </li>
+            <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', marginBottom: '14px' }}>
+              <FaCode size={20} color="var(--accent-cyan)" style={{ marginTop: '2px' }} />
+              <div>
+                <b>Lenguajes:</b> HTML, CSS, javaScript, php, sql.
+              </div>
+            </li>
+            <li style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+              <FaStar size={20} color="var(--accent-cyan)" style={{ marginTop: '2px' }} />
+              <div>
+                <b>Intereses:</b> Una persona responsable, puntual, organizado, trabajo en equipo.
+              </div>
+            </li>
           </ul>
         </div>
       </div>
